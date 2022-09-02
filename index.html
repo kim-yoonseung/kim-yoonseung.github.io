@@ -1,6 +1,200 @@
-<h1> Yoonseung Kim </h1>
+<style>
+  h1 {
+      font-size: 2.5em;
+      text-align: center;
+  }
 
-email: yoonseung.kim@yale.edu <br><br>
+  h2 {
+      color: Gray;
+      font-size: 1.8em;
+      text-align: left;
+  }
 
-This page is under construction. My former page is <a href="https://sf.snu.ac.kr/yoonseung.kim"> here </a>.
+  h3 {
+      color: DarkGray;
+      font-size: 1.5em;
+      text-align: left;
+  }
 
+  div {
+      font-size: 1.3em;
+      /* border: 1px solid green; */
+      padding: 10px;
+  }
+
+  .section {
+      /* adjust padding */
+      padding: 1%;
+      width: 80%;
+      margin: auto;
+  }
+
+  .column1 {
+      float: left;
+      width: 30%;
+      margin: auto;
+  }
+
+  .column2 {
+      float: left;
+      width: 60%;
+      margin: auto;
+  }
+
+  .row:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+
+  img {
+      float: right;
+      width: 300px;
+  }
+
+  ul {
+      /* list-style-type: none; */
+      /* margin: 10px; */
+      /* padding: 5px; */
+  }
+
+  li {
+      margin: 20px;
+      /* padding: 20px; */
+  }
+
+</style>
+
+<body style="background-color:rgba(0, 179, 121, 0.1);">
+
+<div> <h1> Yoonseung Kim </h1> </div>
+
+<div class="row section">
+  <div class="column1">
+    <img src="me.jpg">
+  </div>
+  <div class="column2">
+    <p>
+    Hi! I'm Yoonseung Kim. I am a Postdoctoral Associate of the <a href="https://flint.cs.yale.edu/flint/index.html">FLINT</a> group in the Computer Science Department at Yale.
+    I received my PhD from <a href="https://sf.snu.ac.kr/"> Software Foundations Lab </a> at Seoul National University.
+    </p>
+    <p>
+      I'm particularly interested in verifying computer systems using the <a href="https://coq.inria.fr">Coq</a> interactive theorem prover. I have been verifying compilers, real-time distributed systems, and consensus protocols.
+    </p>
+
+    <p>
+      <!-- Address: AKW 312, 51 Prospect St, New Haven, CT -->
+      Contact me via yoonseung.kim at yale.edu
+    </p>
+  </div>
+</div>
+
+<div class="section">
+  <h2> publication </h2>
+  <ul>
+    <li> Formal Verification Framework for Cyber-Physical Systems on PALSware <br>
+      Yoonseung Kim <br>
+      <em>PhD Thesis, Seoul National University</em> <br>
+      [paper: <a href="https://sf.snu.ac.kr/yoonseung.kim/thesis_yskim.pdf">pdf</a>]
+    <li> Crellvm: Verified Credible Compilation for LLVM <br>
+      Jeehoon Kang*, Yoonseung Kim*, Youngju Song*, Juneyoung Lee, Sanghoon Park,
+      Mark Dongyeon Shin, Yonghyun Kim, Sungkeun Cho, Joonwon Choi,
+      Chung-Kil Hur, Kwangkeun Yi. <br>
+      (* The first three authors contributed equally to this work and are listed alphabetically.) <br>
+      <em>Proceedings of the 39th annual ACM SIGPLAN conference on Programming Languages Design and Implementation (PLDI 2018).</em> <br>
+      [paper: <a href="https://sf.snu.ac.kr/publications/crellvm.pdf">pdf</a>]
+    </li>
+    <li> Taming Undefined Behavior in LLVM <br>
+      Juneyoung Lee, Yoonseung Kim, Youngju Song, Chung-Kil Hur, Sanjoy Das (Azul Systems), David Majnemer (Google), John Regehr, Nuno P. Lopes. <br>
+      <em>Proceedings of the 38th annual ACM SIGPLAN conference on Programming Languages Design and Implementation (PLDI 2017).</em> <br>
+      [paper: <a href="https://sf.snu.ac.kr/publications/undefllvm.pdf">pdf</a>]
+    </li>
+    <li> Lightweight Verification of Separate Compilation <br>
+      Jeehoon Kang, Yoonseung Kim, Chung-Kil Hur, Derek Dreyer, Viktor Vafeiadis. <br>
+      <em>Proceedings of the 43rd ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (POPL 2016).</em> <br>
+      [paper: <a href="https://sf.snu.ac.kr/publications/sepcompcert.pdf">pdf</a>]
+    </li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2> education </h2>
+
+  <ul>
+    <li> Sep. 2013 – Aug. 2021, Ph.D., Computer Science and Engineering, Seoul National University (advisor: Chung-Kil Hur) </li>
+    <li> Feb. 2009 – Feb. 2013, B.S., Computer Science / Mathematical Sciences (double major), magna cum laude (GPA:3.99/4.3), KAIST </li>
+    <li> Mar. 2006 – Feb. 2009, High School Diploma, Korea Science Academy </li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2> honors and awards </h2>
+  <ul>
+    <li> Mar. 2014 – Feb. 2019, EECS Graduate Student Scholarship of Korea Foundation for Advanced Studies (KFAS) </li>
+    <li> Mar. 2009 – Feb. 2013, Korean Presidental Science Scholarship </li>
+    <li> Mar. 2007 – Feb. 2009, KNN Scholarship </li>
+  </ul>
+
+</div>
+
+<div class="section">
+  <h2> professional activities </h2>
+
+  <h3> talks </h3>
+  <ul>
+    <li> Formal Verification of Middleware for Real-Time Distributed Systems,
+      Mar 2022, KAIST </li>
+    <li> Formal Verification of Middleware for Real-Time Distributed Systems,
+      Feb 2022, KIISE SigPL Winter School 2022 </li>
+    <li> Formal Verification of Middleware for Real-Time Distributed Systems,
+      Dec 2021, Yale </li>
+    <li> CreLLVM: Formal Verification of Optimization Passes in LLVM
+      Feb 2019, KIISE SigPL Winter School 2019 </li>
+    <li> Lightweight Verification of Separate Compilation
+      Feb 2016, KIISE SigPL Winter Workshop 2016 </li>
+  </ul>
+
+  <h3> program committees </h3>
+  <ul>
+    <li> PC (<a href="https://popl23.sigplan.org/committee/CPP-2023-papers-program-committeehttps://popl23.sigplan.org/home/CPP-2023">CPP 2023</a>), SRC (<a href="https://popl23.sigplan.org/committee/POPL-2023-student-research-competition-selection-committee">POPL 2023</a>), AEC (<a href="https://popl20.sigplan.org/committee/popl-2020-artifact-evaluation-artifact-evaluation-committee">POPL 2020</a>)
+    </li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2> research experience </h2>
+
+  <ul>
+    <li> Jun. 2022 - Current, Postdoctoral Associate, <a href="https://flint.cs.yale.edu">FLINT group</a>, Yale University </li>
+    <li> Sep. 2021 - May. 2022, Postdoctoral Fellow, <a href="https://sf.snu.ac.kr/">Software Foundations Lab</a>, Seoul National University </li>
+    <li> 2011 - 2012, Undergraduate Researcher, <a href="https://plrg.kaist.ac.kr/">Programming Language Research Group</a>, KAIST </li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2> teaching experience </h2>
+
+  <ul>
+    <li> TA of Principles of Programming at SNU (4190.210), 2017, 2015, 2014 </li>
+    <li> TA of Digital Computer Concept and Practice at SNU (035.001), 2014 </li>
+    <li> TA of Automata Theory at SNU (4190.306), 2013 </li>
+    <li> Undergraduate TA of Programming Languages at KAIST (CS320), 2012 </li>
+  </ul>
+</div>
+
+<!-- <div class="section"> -->
+<!--   <h2> projects </h2> -->
+<!--   <ul> -->
+<!--     <li> ADO </li> -->
+<!--     <li> VeriPALS </li> -->
+<!--     <li> Crellvm </li> -->
+<!--     <li> LLVM freeze </li> -->
+<!--     <li> Samsung OS </li> -->
+<!--     <li> CompCert </li> -->
+<!--     <li> Wikipedia </li> -->
+<!--     <li> HANpass </li> -->
+<!--     <li> Medical system </li> -->
+<!--   </ul> -->
+<!-- </div> -->
+
+</body>
